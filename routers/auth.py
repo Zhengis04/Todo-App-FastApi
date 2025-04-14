@@ -19,8 +19,8 @@ router=APIRouter(
     tags=['auth']
 )
 
-SECRET_KEY="9773019e0356ecaca610800150193514bd53a6d8856a30f68d3b5753bbec13ed"
-ALGORITM="HS256"
+SECRET_KEY=""
+ALGORITM=""
 bcypt_context=CryptContext(schemes=['bcrypt'],deprecated='auto')
 oath2_bearer=OAuth2PasswordBearer(tokenUrl='auth/token')
 
